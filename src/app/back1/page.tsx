@@ -22,8 +22,8 @@ export default function Back1() {
 
           <div className="mb-6">
             <p className="text-lg mb-2">
-              <span className="line-through text-red-500">de R$ 69,00</span>{" "}
-              <span className="text-[#00D9E2] font-bold text-2xl">por R$ 39,00</span>
+              <span className="line-through text-red-500">de R$ 99,00</span>{" "}
+              <span className="text-[#00D9E2] font-bold text-2xl">por R$ 69,00</span>
             </p>
             <p className="text-[#183B56] text-sm">
               Acesso completo ao TikTok Shop que está<br />transformando vidas financeiramente
@@ -33,10 +33,10 @@ export default function Back1() {
           {/* Highlight Box */}
           <div className="bg-[#E6FCFF] border-2 border-[#00D9E2] rounded-lg p-6 mb-6">
             <h2 className="text-[#00D9E2] font-bold text-2xl mb-2">
-              Por apenas R$<br />39,00
+              Por apenas R$<br />69,00
             </h2>
             <p className="text-[#183B56] text-sm">
-              Desconto de R$69,00 por R$39,00 - Válido<br />apenas hoje!
+              Desconto de R$99,00 por R$69,00 - Válido<br />apenas hoje!
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export default function Back1() {
           <Button
             animated
             color="secondary"
-            onClick={() => window.location.href = "https://go.disruptybr.store/lut5r7csua"}
+            onClick={() => window.location.href = "https://go.cinqpay.com.br/cdniw"}
             className="w-full text-white text-lg font-bold rounded-md py-4 shadow-md"
           >
             GARANTIR ACESSO AGORA

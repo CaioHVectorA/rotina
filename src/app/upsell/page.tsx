@@ -67,7 +67,7 @@ export default function Upsell() {
           </div>
         </div>
       </div>
-      <script src="https://app.disruptybr.com.br/js/oneclick.js"></script>
+      <script src="https://app.cinqpay.com.br/js/oneclick.js"></script>
     </div>
   );
 }
