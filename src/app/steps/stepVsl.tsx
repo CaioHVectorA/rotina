@@ -78,7 +78,7 @@ const VSLComponent = (({ onComplete }: { onComplete?: () => void }) => {
         <div className="mt-4">
           <Button
             animated
-            onClick={() => window.location.href = "https://go.cinqpay.com.br/o4tkpuebdc"}
+            onClick={() => window.location.href = "https://go.perfectpay.com.br/PPU38CQ1PRB"}
             className="w-full text-white text-lg font-bold rounded-full py-2 shadow-md"
           >
             GARANTA SUA VAGA AQUI

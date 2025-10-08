@@ -44,7 +44,7 @@ export default function Back1() {
           <Button
             animated
             color="secondary"
-            onClick={() => window.location.href = "https://go.cinqpay.com.br/cdniw"}
+            onClick={() => window.location.href = "https://go.perfectpay.com.br/PPU38CQ1PT6"}
             className="w-full text-white text-lg font-bold rounded-md py-4 shadow-md"
           >
             GARANTIR ACESSO AGORA

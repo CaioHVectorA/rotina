@@ -29,7 +29,7 @@ const VSLComponent = memo(() => (
 export function Step14({ nextStep }: Step14Props) {
     const [isVslDone, setIsVslDone] = useState(false);
     const [time, setTime] = useState(0);
-    const [checkoutHref, setCheckoutHref] = useState("https://go.perfectpay.com.br/PPU38CPPTFA");
+    const [checkoutHref, setCheckoutHref] = useState("https://go.perfectpay.com.br/PPU38CQ1PRB");
 
     useEffect(() => {
         const SECONDS_TO_DISPLAY = 353; // 5 minutes and 53 seconds
@@ -92,7 +92,7 @@ export function Step14({ nextStep }: Step14Props) {
     }, []);
 
     useEffect(() => {
-        setCheckoutHref(appendSrcParamToUrl("https://go.perfectpay.com.br/PPU38CPPTFA"));
+        setCheckoutHref(appendSrcParamToUrl("https://go.perfectpay.com.br/PPU38CQ1PRB"));
     }, []);
 
     return (

@@ -45,9 +45,9 @@ const VSLComponent = memo(() => (
 // ));
 
 export default function Upsell2Step6() {
-    const [checkoutHref, setCheckoutHref] = useState("https://go.perfectpay.com.br/PPU38CPPTFL?upsell=true");
+    const [checkoutHref, setCheckoutHref] = useState("https://go.perfectpay.com.br/PPU38CQ1PT6");
     useEffect(() => {
-        setCheckoutHref(appendSrcParamToUrl("https://go.perfectpay.com.br/PPU38CPPTFL?upsell=true"));
+        setCheckoutHref(appendSrcParamToUrl("https://go.perfectpay.com.br/PPU38CQ1PT6"));
     }, []);
 
     return (

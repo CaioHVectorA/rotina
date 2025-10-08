@@ -3,14 +3,8 @@
 import { Button } from "@/components/ui/Button";
 
 // Novos links gerais de checkout
-const FRONT_CHECKOUT = "https://go.cinqpay.com.br/o4tkpuebdc";
-const BACK_CHECKOUT = "https://go.cinqpay.com.br/cdniw";
-
-const fornPayData = {
-  "Plano Silver": "fszc32y3wh",
-  "Plano Gold": "zuw6b36pau",
-  "Plano Diamond": "aapfsg5wxr"
-};
+const FRONT_CHECKOUT = "https://go.perfectpay.com.br/PPU38CQ1PRB";
+const BACK_CHECKOUT = "https://go.perfectpay.com.br/PPU38CQ1PT6";
 
 export default function Upsell() {
   const plans = [
@@ -67,7 +61,6 @@ export default function Upsell() {
           </div>
         </div>
       </div>
-      <script src="https://app.cinqpay.com.br/js/oneclick.js"></script>
     </div>
   );
 }
@@ -114,7 +107,6 @@ function PlanCard({ title, oldPrice, price, features, link, recommended, color, 
         {...(buttonAnimate ? { animated: true } : {})}
         color="secondary"
         className="w-full mt-2 rounded-md"
-        data-fornpay={fornPayData[title as keyof typeof fornPayData]}
         onClick={() => { if (link) window.location.href = link; }}
       >
         SIM, EU ACEITO ESSA OFERTA

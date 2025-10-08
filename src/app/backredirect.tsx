@@ -16,23 +16,23 @@ export default function BackRedirect() {
           <PlanCard
             title="Plano Gold"
             oldPrice="R$97,00"
-            price="R$67,00"
+            price="R$57,00"
             features={["20 vídeos prontos todos os dias", "Saques de até R$350,00 por dia"]}
-            link="https://go.cinqpay.com.br/o4tkpuebdc"
+            link="https://checkout.perfectpay.com.br/pay/PPU38CQ1PSU"
           />
           <PlanCard
             title="Plano Diamond"
             oldPrice="R$297,00"
-            price="R$127,00"
+            price="R$67,00"
             features={["50 vídeos prontos todos os dias", "Suporte exclusivo 24h por dia 7 dias semana", "Saques de até R$1.790,90 por dia"]}
-            link="https://go.cinqpay.com.br/o4tkpuebdc"
+            link="https://checkout.perfectpay.com.br/pay/PPU38CQ1PT3"
           />
           <PlanCard
             title="Plano Silver"
             oldPrice="R$429,00"
-            price="R$229,90"
+            price="R$97,00"
             features={["150 vídeos prontos todos os dias", "Suporte exclusivo 24h por dia 7 dias semana", "Grupo exclusivo de networking com mais de 70 mil alunos lucrando todos os dias com a gente", "Saque de até R$2.990,00 por dia"]}
-            link="https://go.cinqpay.com.br/cdniw"
+            link="https://checkout.perfectpay.com.br/pay/PPU38CQ1PT1"
             recommended
           />
         </div>
